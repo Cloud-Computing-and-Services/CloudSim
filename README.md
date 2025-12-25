@@ -134,8 +134,7 @@ The project includes a set of experimental scenarios designed to test the flexib
 
 ### Install
 
-Clone the Repository
-Download the repository to your local machine:
+Clone the repository to your local machine:
 ```
 git clone https://github.com/Cloud-Computing-and-Services/CloudSim.git
 ```
