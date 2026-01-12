@@ -20,17 +20,34 @@
 
 <p align="center">
   <strong>Vasileios Evangelos Athanasiou</strong><br>
-  Student ID: 19390005<br>
+  Student ID: 19390005
 </p>
 
 <p align="center">
-  Supervisor: Vasileios Mamalis, Professor<br>
+  <a href="https://github.com/Ath21" target="_blank">GitHub</a> ·
+  <a href="https://www.linkedin.com/in/vasilis-athanasiou-7036b53a4/" target="_blank">LinkedIn</a>
+</p>
+
+<p align="center">
+  Supervisor: Vasileios Mamalis, Professor
+</p>
+<p align="center">
+  <a href="https://ice.uniwa.gr/en/emd_person/vassilios-mamalis/" target="_blank">UNIWA Profile</a>
+</p>
+
+<p align="center">
   Co-supervisor: Dimitrios Kallergis, Lecturer in Applications
+</p>
+<p align="center">
+  <a href="https://ice.uniwa.gr/en/emd_person/20972/" target="_blank">UNIWA Profile</a> ·
+    <a href="https://www.linkedin.com/in/dkallergis/" target="_blank">LinkedIn</a>
 </p>
 
 <p align="center">
   Athens, June 2024
 </p>
+
+---
 
 ## Overview
 
@@ -40,11 +57,34 @@ This project explores the simulation of cloud computing environments using the *
 
 ## Table of Contents
 
-| Section | Title          | Description                                    |
-|--------:|----------------|------------------------------------------------|
-| assign  | Assignment     | Contains assignments and tasks                 |
-| docs    | Documentation  | Project documentation, guides, and notes       |
-| src     | Source Code    | All source code files of CloudSim              |
+| Section | Folder / File | Description |
+|------:|---------------|-------------|
+| 1 | `assign/` | Assignment material for the CloudSim course |
+| 1.1 | `assign/ASSIGNMENT #1.pdf` | Assignment description in English |
+| 1.2 | `assign/ΕΡΓΑΣΙΑ #1.pdf` | Assignment description in Greek |
+| 2 | `cloudsim-cloudsim-4.0/` | Main CloudSim 4.0 library source and build files |
+| 2.1 | `cloudsim-cloudsim-4.0/src/main/resources/` | Build and project resources (`pom.xml`, `build.xml`, `readme.txt`, etc.) |
+| 2.2 | `cloudsim-cloudsim-4.0/src/main/java/org/cloudbus/cloudsim/` | Core CloudSim classes, including: |
+| 2.2.1 | `container/` | Container-based simulation: policies, provisioners, VM selection, scheduling |
+| 2.2.2 | `core/` | Core simulation classes: CloudSim engine, SimEntity, SimEvent, predicates |
+| 2.2.3 | `distributions/` | Statistical distributions for simulation (Uniform, Exponential, etc.) |
+| 2.2.4 | `lists/` | Utility lists for Cloudlets, Hosts, VMs, PEs |
+| 2.2.5 | `network/datacenter/` | Network-aware datacenter simulation classes |
+| 2.2.6 | `power/` | Power-aware datacenter simulation classes and VM allocation policies |
+| 2.2.7 | `provisioners/` | RAM, BW, PE provisioners for VMs and Containers |
+| 2.2.8 | `util/` | Utility classes for workload, math, and execution measurement |
+| 2.2.9 | `vmSelectionPolicies/` | Power VM selection policies |
+| 2.3 | `cloudsim-cloudsim-4.0/src/test/java/org/cloudbus/cloudsim/` | Unit tests for all major modules (lists, power, provisioners, schedulers) |
+| 2.4 | `cloudsim-cloudsim-4.0/target/` | Compiled classes and Maven metadata |
+| 3 | `cloudsim-examples/` | Example simulations using CloudSim 4.0 |
+| 3.1 | `cloudsim-examples/src/main/java/org/cloudbus/cloudsim/examples/container/` | Container simulation examples |
+| 3.2 | `cloudsim-examples/src/main/java/org/cloudbus/cloudsim/examples/network/datacenter/` | Network simulation examples |
+| 3.3 | `cloudsim-examples/src/main/java/org/cloudbus/cloudsim/examples/power/` | Power-aware simulation examples (PlanetLab and Random traces) |
+| 3.4 | `cloudsim-examples/src/main/resources/` | Example datasets for simulations (`.dat`, `.swf.gz`) |
+| 4 | `docs/` | Documentation and use-case PDFs |
+| 4.1 | `docs/Use-Cases-at-CloudSim.pdf` | English version |
+| 4.2 | `docs/Σενάρια-Χρήσης-στο-CloudSim.pdf` | Greek version |
+| 5 | `README.md` | Repository overview and instructions |
 
 ---
 
