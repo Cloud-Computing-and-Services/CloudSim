@@ -183,3 +183,11 @@ git clone https://github.com/Cloud-Computing-and-Services/CloudSim.git
 Open the project in IDE for Java Development such as Eclipse
 
 From package `/cloudsim-examples/src/main/java/org/cloudbus/cloudsim/examples/` run `CloudSimExample6.java` to see the simulation
+
+---
+
+## Open the Documentation
+1. Navigate to the `docs/` directory
+2. Open the report corresponding to your preferred language:
+    - English: `Use-Cases-at-CloudSim.pdf`
+    - Greek: `Σενάρια-Χρήσης-στο-CloudSim.pdf`
