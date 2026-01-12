@@ -49,7 +49,7 @@
 
 ---
 
-## Overview
+# Project Overview
 
 This project explores the simulation of cloud computing environments using the **CloudSim** framework. It focuses on both theoretical and practical analysis of datacenter configurations, **Virtual Machine (VM)** allocation policies, and **Cloudlet** scheduling mechanisms.
 
@@ -162,9 +162,9 @@ The project includes a set of experimental scenarios designed to test the flexib
 
 ---
 
-## Installation and Run Guide
+# Installation and Run Guide
 
-### Prerequisites
+## Prerequisites
 
 - **CloudSim Framework**: Ensure the [CloudSim 4.0 framework](https://github.com/Cloudslab/cloudsim/releases) is installed and configured.
 - **Java Development Kit (JDK)**: A compatible version of JDK (8 or higher) is required.
@@ -172,7 +172,7 @@ The project includes a set of experimental scenarios designed to test the flexib
 
 ---
 
-### Install
+## Install
 
 Clone the repository to your local machine:
 ```
